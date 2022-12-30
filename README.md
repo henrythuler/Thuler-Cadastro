@@ -6,4 +6,6 @@
 
 <h2>Responsive Sign Up Form</h2>
 :point_right: This is a responsive sign up form that i've developed with the interest of testing my front-end skills.
+<br>
+<br>
 :man_technologist: I've used display flex to make the inputs positioning at the form and the flex property to the size ratio of each one and to divide the space between the form and the image.
