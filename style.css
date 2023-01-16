@@ -97,11 +97,33 @@ body{
     justify-content: flex-end;
 }
 
+.input-container{
+    position: relative;
+    width: 100%;
+}
+
+.input-container img{
+    position: absolute;
+    width: 22px;
+    right: 10px;
+    top: 20px;
+    cursor: pointer;
+}
+
 .input-box input,
-.inpu-box select{
-    padding: 3px;
+.input-box select{
+    width: 100%;
+    padding: 5px;
     border-radius: 5px;
     border: 1px solid #385a64;
+}
+
+.input-container input[type=password]{
+    padding: 5px 35px 5px 5px;
+}
+
+input[type=text].senha{
+    padding: 5px 35px 5px 5px;
 }
 
 .input-box input[type="submit"]{
@@ -114,12 +136,37 @@ body{
     cursor: pointer;
 }
 
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.error{
+    font-size: 11px;
+    background-color: #FF0000;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
 @media (max-width: 768px){
     .container{
         flex-direction: column;
-        height: auto;
+        height: 100%;
     }
     
+    .thumbnail{
+        flex: 1;
+    }
+
+    .form-cadastro{
+        flex: 2;
+    }
+
     .form-header-mobile{
         display: flex;
         flex-direction: column;
@@ -128,6 +175,10 @@ body{
 
     .form-header button{
         display: none;
+    }
+
+    .input-box{
+        width: 100%;
     }
 }
 

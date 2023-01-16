@@ -35,26 +35,26 @@
 
             </div><!--Form Header-->
 
-            <form action="POST">
+            <form method="POST" class="validator" >
 
                 <div class="input-box">
 
                     <label for="firstname">Nome:</label>
-                    <input required id="firstname" type="text">
+                    <input data-rules="required|min=2|max=50" id="firstname" type="text">
 
                 </div><!--Input Box-->
 
                 <div class="input-box">
 
                     <label for="lastname">Sobrenome:</label>
-                    <input required id="lastname" type="text">
+                    <input id="lastname" data-rules="required|min=2|max=50" type="text">
 
                 </div><!--Input Box-->
                 
                 <div class="input-box">
 
                     <label for="email">Email:</label>
-                    <input required id="email" type="email">
+                    <input data-rules="required|max=50|email" id="email" type="text">
 
                 </div><!--Input Box-->
 
@@ -67,22 +67,34 @@
 
                 <div class="input-box">
 
-                    <label for="password">Senha:</label>
-                    <input required id="password" type="password">
+                    <div class="input-container">
+
+                        <img class="eye show" src="./img/eye.png" alt="">
+                        <img class="closed-eye hide" src="./img/closedeye.png" alt="">
+                        <label for="password">Senha:</label>
+                        <input data-rules="required|min=2|max=50" class="senha" id="password" type="password">
+
+                    </div><!--Input Container-->
 
                 </div><!--Input Box-->
 
                 <div class="input-box">
 
-                    <label for="confirm-password">Confirme a senha:</label>
-                    <input required id="confirm-password" type="password">
+                    <div class="input-container">
+                        
+                        <img class="eye show" src="./img/eye.png" alt="">
+                        <img class="closed-eye hide" src="./img/closedeye.png" alt="">
+                        <label for="confirm-password">Confirme a senha:</label>
+                        <input data-rules="required|min=2|max=50|confirm" class="senha" id="confirm-password" type="password">
+                        
+                    </div><!--Input Container-->
 
                 </div><!--Input Box-->
 
                 <div class="input-box">
 
                     <label for="gen">Gênero:</label>
-                    <select required name="genero" id="gen">
+                    <select name="genero" id="gen">
 
                         <option value="M">Masculino</option>
                         <option value="F">Feminino</option>
@@ -102,6 +114,8 @@
         </div><!--Form Cadastro-->
 
     </div><!--Container-->
+
+    <script src="./scripts/script.js"></script>
 
 </body>
 </html>
