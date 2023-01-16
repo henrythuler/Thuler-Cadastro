@@ -7,6 +7,7 @@
 <br>
 :book: Utilizei JS para desenvolver o meu validador de formulário com as funcionalidades a seguir:
 <br>
+<br>
 <p>- Inputs de texto e senha precisam ter no mínimo 2 caracteres e no máximo 50.
 <p>- O email é validado antes de ser enviado.
 <p>- As senhas precisam coincidir.
@@ -21,6 +22,7 @@
 <br>
 <br>
 :book: I've used JS to develop my form validator with the following functionalities:
+<br>
 <br>
 <p>- Text and password inputs must have at least 2 characters and 50 maximun.
 <p>- The email is validated before submit.
