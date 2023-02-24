@@ -1,4 +1,4 @@
-<h2>Formulário de Cadastro Responsivo</h2>
+<h2>Thuler Cadastro :page_facing_up:</h2>
 :point_right: Esse é um formulário de cadastro responsivo que desenvolvi com o intuito de testar minhas habilidades no front-end.
 <br>
 <br>
@@ -14,7 +14,8 @@
 <p>- Ocultar/Mostrar Senha
 <p>- Exibição dos erros abaixo do input específico.
 
-<h2>Responsive Sign Up Form</h2>
+<hr>
+
 :point_right: This is a responsive sign up form that i've developed with the interest of testing my front-end skills.
 <br>
 <br>
